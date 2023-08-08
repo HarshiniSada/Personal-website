@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+
+body {
+  font-family:'Poppins', sans-serif;
+}
+
+
+#title{
+  background-color:#C4C4C4;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 8%;
+} 
+
+/*Headings and paragraphs*/ 
+
+.big-heading{
+  font-family:'Montserrat', sans-serif; 
+  font-size:2.5rem;
+  line-height:1.5;
+  padding-bottom:0.7rem; 
+  padding-top:0.1rem;
+}
+
+h2{
+  font-family:'Poppins', sans-serif;  
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  color:#8f8f8f;
+}
+
+h3{
+  font-family:'Poppins', sans-serif; 
+  font-size:1.3rem;
+}
+
+.medium-heading{
+  font-family:'Poppins', sans-serif; 
+  font-size:1.1rem;
+  line-height:1.5;   
+}
+.small-heading{
+  font-family:'Poppins', sans-serif; 
+  font-size:1.1rem;
+  line-height:1.2;  
+}
+
+p{
+  font-family:'Poppins', sans-serif;
+  color:#8f8f8f;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  padding-bottom:4rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.3rem;
+  font-weight:bold;
+  position:absolute;
+  left:0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:'Poppins', sans-serif;
+}
+
+/*Title Image*/
+
+.rectangle-image{
+  width:300px;
+  height:323px;
+  position:absolute;
+  left: 260%;
+  bottom:40px;
+}
+
+.profile-image{
+  width:300px;
+  height:316px;
+  position:absolute;
+  left:250%;
+  bottom:25px;
+}
+
+/*Skills*/
+
+#skills{
+  padding: 7% 15%;
+  background-color:#fff;
+  position:relative;
+}
+
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+
+.fas{
+  margin: 1rem;
+}
+
+.hover03 figure img {
+	width: 200px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+  /* web browser rendering engine */
+	transition: .3s ease-in-out;
+}
+.hover03 figure:hover img {
+	width: 230px;
+}
+
+/*Projects*/
+
+#projects{
+  text-align:center;
+  background-color:#C4C4C4;
+  position:relative;
+  color:#fff;
+}
+
+.main-heading{
+  padding-bottom:0.7rem;
+  color:#01020B;
+  line-height:1.2;
+}
+
+.main-heading1{
+  padding-bottom:0.7rem;
+  color:#01020B;
+  line-height:1.2;
+}
+
+.main-heading2{
+  padding-bottom:0.7rem;
+  color:#01020B;
+  line-height:1.2;
+}
+
+.emoji-icon{
+  width:45px;
+  height:45px;
+  position:absolute;
+  top:5.9rem;
+  bottom:24.2rem;
+  left:39.2rem;
+}
+
+.emoji-icon2{
+  width:43px;
+  height:43px;
+  position:absolute;
+  top:6.2rem;
+  bottom:23.8rem;
+  left:38.9rem;
+}
+
+.emoji-icon3{
+  width:43px;
+  height:43px;
+  position:absolute;
+  top:6.3rem;
+  bottom:23.8rem;
+  left:38.8rem;
+}
+
+.project{
+  width:500px;
+  height:auto;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*Footer section*/
+
+#footer{
+  padding: 7% 15%;
+  text-align:center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+/*media query*/
+
+@media(max-width: 1028px){
+  
+  .medium-heading{
+    font-size:0.9rem; 
+  }
+
+  .small-heading{
+    font-size:0.9rem; 
+  }
+  .big-heading{
+    font-size:1.9rem;
+  }
+
+  .rectangle-image{
+    display:none;
+  }
+  
+  .profile-image{
+    width:300px;
+    height:316px;
+    position:absolute;
+    left:250%;
+    bottom:-7px;
+  }
+
+  #skills{
+    padding: 7% 15%;
+  }
+
+  .feature-box{
+    text-align:center;
+    padding:5%;
+  }
+  
+  .fas{
+    margin:1rem;
+  }
+
+  h3{
+    font-size:1rem;
+  }
+  
+  p{
+    font-size:0.7rem;
+  }
+
+  
+  .emoji-icon{
+    position:static;
+  }
+
+  .emoji-icon2{
+    position:static;
+  }
+
+  .emoji-icon3{
+    position:static;
+  }
+}
+
+
+@media(max-width:650px){
+  .rectangle-image{
+    display:none;
+  }
+
+  #about{
+    text-align:center;
+  }
+
+  .profile-image{
+    position:static;
+    text-align:center;
+  }
+
+  .emoji-icon{
+    position:static;
+  }
+
+  .emoji-icon2{
+    position:static;
+  }
+
+  .emoji-icon3{
+    position:static;
+  }
+}
+
+@media(max-width:480px){
+
+  .rectangle-image{
+    display:none;
+  }
+
+  #about{
+    text-align:center;
+  }
+
+  .big-heading{
+    font-size:1.5rem;
+  }
+  .medium-heading{
+    font-size:0.6rem;
+  }
+  .small-heading{
+    font-size:0.6rem;
+  }
+
+  .project{
+    width:289px;
+    height:289px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+  }
+
+  .profile-image{
+    width:200px;
+    height:216px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+  }
+
+  .main-heading{
+    text-align: center !important;
+    position:absolute;
+    top:3.5rem;
+    left:7.8rem;
+    font-size:1.1rem;
+  }
+
+  .main-heading1{
+    text-align: center !important;
+    position:absolute;
+    top:3.5rem;
+    left:7.5rem;
+    font-size:1.1rem;
+  }
+
+  .main-heading2{
+    text-align: center !important;
+    position:absolute;
+    top:3.5rem;
+    left:8.1rem;
+    font-size:1.1rem;
+  }
+
+  .emoji-icon{
+    position:static;
+    width:33px;
+    height:33px;
+  }
+
+  .emoji-icon2{
+    position:static;
+    width:33px;
+    height:33px;
+  }
+
+  .emoji-icon3{
+    position:static;
+    width:33px;
+    height:33px;
+  }
+}
+
+
+
+
+
+
+
+
+
