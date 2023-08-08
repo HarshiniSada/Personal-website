@@ -10,11 +10,11 @@ Explore a diverse range of projects that showcase my expertise:
 🔧 Skills:
 I'm proficient in various technologies and languages, including:
 
-Front-end: HTML5, CSS3, JavaScript (ES6+)
-Back-end: Node.js, Express
-Databases: MongoDB, MySQL
-Version Control: Git, GitHub
-UI/UX Design: Figma, Adobe XD
+- Front-end: HTML5, CSS3, JavaScript (ES6+)
+- Back-end: Node.js, Express
+- Databases: MongoDB, MySQL
+- Version Control: Git, GitHub
+- UI/UX Design: Figma, Adobe XD
 📞 Contact:
 Let's collaborate on your next project! Feel free to reach out:
 
