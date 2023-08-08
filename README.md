@@ -19,6 +19,4 @@ UI/UX Design: Figma, Adobe XD
 Let's collaborate on your next project! Feel free to reach out:
 
 📧 Email: hsadagop@gitam.in
-**🌐 Portfolio:**
-file:///C:/Users/harsh/Desktop/portfolio/portfolio/index.html
 I'm excited to turn your ideas into reality and create exceptional web experiences. Let's connect and make your online presence shine! ✨
